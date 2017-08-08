@@ -19,7 +19,7 @@ app.get('/second_article', function(req,res)
      res.sendFile(path.join(__dirname,'ui','second_article.html'));
 });
 
-app.get('/article_three', function(req,res)
+app.get('/third_one', function(req,res)
 {
     res.sendFile(path.join(__dirname,'ui','third_one.html'));
 });
