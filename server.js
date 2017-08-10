@@ -5,15 +5,15 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var ArticleOne{
-  title:'Article one | shakeel'
-  heading:' article one'
-  date:'august 10'
+var ArticleOne ={
+  title:'Article one | shakeel',
+  heading:' article one',
+  date:'august 10',
   content:` <p>
         wanna tell you a poem
     </p>
     <p>
-          At a dead manâs throat
+          At a dead mans throat
 
          lies the rain drenched woolen scarf
 
@@ -22,7 +22,7 @@ var ArticleOne{
          Cold Winds howl through decayed trees -
 
          witnesses in the shadows.
-    </p>`
+    </p>`,
 
 
 };
@@ -53,7 +53,7 @@ ${title}
     </div>
 <div>
     
-         ${content}
+    ${content}
 </div>
 </div>
 </body>
