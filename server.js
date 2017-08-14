@@ -48,6 +48,7 @@ var articles = {
     },
 
 };
+
     
 function createTemplate(data)
 {
@@ -99,6 +100,13 @@ app.get('/:articleName', function(req,res)
 app.get('/second_article', function(req,res)
 {
      res.sendFile(path.join(__dirname,'ui','second_article.html'));
+});
+var counter=0;
+app.get('/counter',function(req,req)
+{
+  counter =counter+1;
+  res.send(counter.toString());
+    
 });
 
 
